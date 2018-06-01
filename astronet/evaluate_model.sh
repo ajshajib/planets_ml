@@ -1,8 +1,10 @@
 # Directory to save model checkpoints into.
-MODEL_DIR="/home/idies/workspace/Storage/tdo/planets_ml/checkpoints/"
+#MODEL_DIR="/home/idies/workspace/Storage/tdo/planets_ml/checkpoints/"
+MODEL_DIR="/home/idies/workspace/Storage/ajshajib/persistent/astronet_model/checkpoints/"
 
 # Directory to save output TFRecord files into.
 TFRECORD_DIR="/home/idies/workspace/Storage/tdo/planets_ml/tfrecord"
+#TFRECORD_DIR="/home/idies/workspace/Storage/ajshajib/persistent/tfrecord"
 
 TCE_CSV_FILE="/home/idies/workspace/Storage/tdo/planets_ml/q1_q17_dr24_tce.csv"
 

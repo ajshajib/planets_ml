@@ -11,7 +11,6 @@ KEPLER_DATA_DIR="/home/idies/workspace/Storage/tdo/planets_ml/data/"
 
 
 # Generate a prediction for a new TCE.
-
 bazel-bin/astronet/predict \
   --model=AstroCNNModel \
   --config_name=local_global \
@@ -21,4 +20,4 @@ bazel-bin/astronet/predict \
   --period=14.44912 \
   --t0=2.2 \
   --duration=0.11267 \
-  --output_image_file="kepler-90i.png"
+  --output_image_file="${HOME}/astronet/kepler-90i.png"
